@@ -4,6 +4,7 @@ gem 'rails', '3.0.4'
 gem 'haml-edge'
 gem 'haml'
 gem 'haml-rails'
+gem 'maruku'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
