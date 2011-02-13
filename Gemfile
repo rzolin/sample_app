@@ -1,22 +1,22 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.4'
+gem 'haml-edge'
+gem 'haml'
+gem 'haml-rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem "haml-rails"
 gem 'sqlite3'
 gem "compass", ">= 0.10.6"
+gem 'ZenTest'
 
-group :development do
-  gem 'rspec-rails', '2.5.0'
+group :test, :development do
+  gem "rspec-rails", "~> 2.4"
+	gem "webrat"
 end
 
-group :test do
-  gem 'rspec', '2.5.0'
-  gem 'webrat', '0.7.1'
-end
 
 # Use unicorn as the web server
 # gem 'unicorn'
