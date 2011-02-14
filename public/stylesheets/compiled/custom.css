@@ -1,0 +1,79 @@
+/* line 7, ../../../app/stylesheets/custom.sass */
+body.two-col nav ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  overflow: hidden;
+  *zoom: 1;
+  float: right;
+  background: #eeeeee;
+  padding: 3px 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 56, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+body.two-col nav ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+/* line 45, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+body.two-col nav ul li:first-child, body.two-col nav ul li.first {
+  padding-left: 0;
+}
+/* line 46, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+body.two-col nav ul li:last-child, body.two-col nav ul li.last {
+  padding-right: 0;
+}
+/* line 13, ../../../app/stylesheets/custom.sass */
+body.two-col nav ul li {
+  padding: 0 5px;
+}
+/* line 15, ../../../app/stylesheets/custom.sass */
+body.two-col nav ul a {
+  text-decoration: none;
+  color: blue;
+}
+/* line 18, ../../../app/stylesheets/custom.sass */
+body.two-col nav ul a:hover {
+  color: red;
+}
+/* line 23, ../../../app/stylesheets/custom.sass */
+body.two-col a.signup_button {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  width: 190px;
+  background: #6666ff;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 20px;
+  text-decoration: none;
+  border: 1px solid blue;
+  -webkit-border-radius: 10px 10px;
+  -moz-border-radius: 10px / 10px;
+  -o-border-radius: 10px / 10px;
+  -ms-border-radius: 10px / 10px;
+  -khtml-border-radius: 10px / 10px;
+  border-radius: 10px / 10px;
+  -moz-box-shadow: #666666 4px 4px 5px 0;
+  -webkit-box-shadow: #666666 4px 4px 5px 0;
+  -o-box-shadow: #666666 4px 4px 5px 0;
+  box-shadow: #666666 4px 4px 5px 0;
+}
+/* line 39, ../../../app/stylesheets/custom.sass */
+body.two-col a.signup_button:hover {
+  color: yellow;
+}

@@ -1,0 +1,40 @@
+@import "compass/utilities"
+@import "compass/css3/border-radius"
+@import "compass/css3/box-shadow"
+
+body.two-col 
+	nav 
+		ul
+			+horizontal-list
+			float: right
+			background: #eeeeee
+			padding: 3px 10px
+			+border_radius(10px)
+			li
+				padding: 0 5px
+			a
+				text-decoration: none
+				color: blue
+			a:hover
+				color: red
+			
+				
+	
+	a.signup_button
+		color: #FFF
+		margin-left: auto
+		margin-right: auto
+		display: block
+		text-align: center
+		width: 190px
+		background: #6666FF
+		font-size: 150%
+		font-weight: bold
+		padding: 20px
+		text-decoration: none
+		border: 1px solid #00F
+		+border-radius(10px, 10px)
+		+box_shadow(#666, 4px, 4px)
+
+	a.signup_button:hover
+		color: yellow
