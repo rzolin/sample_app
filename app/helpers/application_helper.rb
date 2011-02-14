@@ -1,2 +1,12 @@
 module ApplicationHelper
+  
+  # Return a title on per page basis
+  def title
+    base_title = 'Ruby on Rails Sample App'
+    if @title.nil?
+      base title
+    else
+      "#{base_title} | #{@title}"
+    end
+  end
 end

@@ -3,5 +3,12 @@
 	%head
 		%title= "Ruby on Rails Sample App | " + @title
 		= csrf_meta_tag
-	%body
-		= yield
+		= render 'layouts/stylesheets'
+	%body.two-col.bp
+		#container
+			= render 'layouts/header'
+			%aside#sidebar
+				Left bar
+			%section#content
+				= yield
+			=render 'layouts/footer'
