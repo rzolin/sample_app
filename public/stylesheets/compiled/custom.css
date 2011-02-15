@@ -16,7 +16,7 @@ body.two-col nav ul {
   -khtml-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 56, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
+/* line 57, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_horizontal-list.scss */
 body.two-col nav ul li {
   list-style-image: none;
   list-style-type: none;
@@ -76,4 +76,25 @@ body.two-col a.signup_button {
 /* line 39, ../../../app/stylesheets/custom.sass */
 body.two-col a.signup_button:hover {
   color: yellow;
+}
+/* line 42, ../../../app/stylesheets/custom.sass */
+body.two-col ul.form {
+  list-style: none;
+  padding: 0;
+}
+/* line 11, ../../../../../../.gem/ruby/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_bullets.scss */
+body.two-col ul.form li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+/* line 46, ../../../app/stylesheets/custom.sass */
+body.two-col ul.form li span.label {
+  width: 5em;
+  display: inline-block;
+  font-weight: bold;
+}
+/* line 50, ../../../app/stylesheets/custom.sass */
+body.two-col ul.form li span.label:after {
+  content: ": ";
 }

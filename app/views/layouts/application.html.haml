@@ -11,4 +11,5 @@
 				Left bar
 			%section#content
 				= yield
+				= debug(params) if Rails.env.development?
 			=render 'layouts/footer'
