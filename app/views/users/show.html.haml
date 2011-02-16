@@ -1,7 +1,11 @@
+%h1
+	= gravatar_for @user, :size => 50
+	= @user.name
+
 %ul.form
 	%li
 		%span.label Name
-		%span.value= @user.name
+		%span.value= link_to @user.name, user_path(@user)
 	%li
 		%span.label Email
 		%span.value= @user.email

@@ -3,6 +3,18 @@
 @import "compass/css3/box-shadow"
 
 body.two-col 
+	a
+		text-decoration: none
+	a:hover
+		text-decoration: underline
+		color: red
+		
+	h4
+		font-weight: bold
+		font-size: 1.2em
+		padding: 0
+		margin: 4px 0
+
 	nav 
 		ul
 			+horizontal-list
@@ -49,3 +61,10 @@ body.two-col
 				font-weight: bold
 			span.label:after
 				content: ": "
+
+	ul.userList
+		list-style: disc outside none
+		padding: 2px 0 2px 20px
+		margin: 0
+		li	
+			line-height: 1.2em

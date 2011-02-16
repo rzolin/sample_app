@@ -5,6 +5,7 @@ gem 'haml-edge'
 gem 'haml'
 gem 'haml-rails'
 gem 'maruku'
+gem 'gravatar_image_tag', '1.0.0.pre2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -15,6 +16,8 @@ gem 'ZenTest'
 
 group :test, :development do
   gem "rspec-rails", "~> 2.4"
+	gem 'annotate-models', '1.0.4'
+	gem 'factory_girl_rails', '1.0'
 	gem "webrat"
 end
 

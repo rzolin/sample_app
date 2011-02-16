@@ -8,7 +8,11 @@
 		#container
 			= render 'layouts/header'
 			%aside#sidebar
-				Left bar
+				%h4 Users				
+				- User.all.each do |user|	
+					%ul.userList
+						%li= link_to user.name, user_path(user)
+						
 			%section#content
 				= yield
 				= debug(params) if Rails.env.development?
