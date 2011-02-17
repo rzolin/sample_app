@@ -8,12 +8,16 @@
 		#container
 			= render 'layouts/header'
 			%aside#sidebar
-				%h4 Users				
-				- User.all.each do |user|	
-					%ul.userList
-						%li= link_to user.name, user_path(user)
-						
+				- if @title == "Home"
+					%h4 Users
+					- User.all.each do |user|	
+						%ul.userList
+							%li= link_to user.name, user_path(user)
+				- else
+					&nbsp;
 			%section#content
+				- flash.each do |key, value|
+					%div{:class => "flash #{key}"}= value
 				= yield
 				= debug(params) if Rails.env.development?
 			=render 'layouts/footer'

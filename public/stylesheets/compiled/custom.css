@@ -14,7 +14,49 @@ body.two-col h4 {
   padding: 0;
   margin: 4px 0;
 }
-/* line 19, ../../../app/stylesheets/custom.sass */
+/* line 18, ../../../app/stylesheets/custom.sass */
+body.two-col div#error_explanation {
+  border: 1px solid #999999;
+  background-color: #efefef;
+}
+/* line 21, ../../../app/stylesheets/custom.sass */
+body.two-col div#error_explanation h2 {
+  font-size: 1.3em;
+  color: white;
+  background-color: #bb2222;
+  padding: 5px;
+}
+/* line 26, ../../../app/stylesheets/custom.sass */
+body.two-col div#error_explanation p {
+  padding: 0 5px;
+  margin-bottom: 5px;
+}
+/* line 30, ../../../app/stylesheets/custom.sass */
+body.two-col div.field,
+body.two-col div.field_with_errors {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+/* line 35, ../../../app/stylesheets/custom.sass */
+body.two-col div.field label,
+body.two-col div.field_with_errors label {
+  display: block;
+}
+/* line 37, ../../../app/stylesheets/custom.sass */
+body.two-col div.field input,
+body.two-col div.field_with_errors input {
+  height: 1.5em;
+}
+/* line 40, ../../../app/stylesheets/custom.sass */
+body.two-col div.field_with_errors label {
+  color: red;
+}
+/* line 42, ../../../app/stylesheets/custom.sass */
+body.two-col div.field_with_errors input {
+  border-color: red;
+}
+/* line 47, ../../../app/stylesheets/custom.sass */
 body.two-col nav ul {
   margin: 0;
   padding: 0;
@@ -51,20 +93,20 @@ body.two-col nav ul li:first-child, body.two-col nav ul li.first {
 body.two-col nav ul li:last-child, body.two-col nav ul li.last {
   padding-right: 0;
 }
-/* line 25, ../../../app/stylesheets/custom.sass */
+/* line 53, ../../../app/stylesheets/custom.sass */
 body.two-col nav ul li {
   padding: 0 5px;
 }
-/* line 27, ../../../app/stylesheets/custom.sass */
+/* line 55, ../../../app/stylesheets/custom.sass */
 body.two-col nav ul a {
   text-decoration: none;
   color: blue;
 }
-/* line 30, ../../../app/stylesheets/custom.sass */
+/* line 58, ../../../app/stylesheets/custom.sass */
 body.two-col nav ul a:hover {
   color: red;
 }
-/* line 35, ../../../app/stylesheets/custom.sass */
+/* line 63, ../../../app/stylesheets/custom.sass */
 body.two-col a.signup_button {
   color: white;
   margin-left: auto;
@@ -89,11 +131,11 @@ body.two-col a.signup_button {
   -o-box-shadow: #666666 4px 4px 5px 0;
   box-shadow: #666666 4px 4px 5px 0;
 }
-/* line 51, ../../../app/stylesheets/custom.sass */
+/* line 79, ../../../app/stylesheets/custom.sass */
 body.two-col a.signup_button:hover {
   color: yellow;
 }
-/* line 54, ../../../app/stylesheets/custom.sass */
+/* line 82, ../../../app/stylesheets/custom.sass */
 body.two-col ul.form {
   list-style: none;
   padding: 0;
@@ -104,23 +146,23 @@ body.two-col ul.form li {
   list-style-type: none;
   margin-left: 0px;
 }
-/* line 58, ../../../app/stylesheets/custom.sass */
+/* line 86, ../../../app/stylesheets/custom.sass */
 body.two-col ul.form li span.label {
   width: 5em;
   display: inline-block;
   font-weight: bold;
 }
-/* line 62, ../../../app/stylesheets/custom.sass */
+/* line 90, ../../../app/stylesheets/custom.sass */
 body.two-col ul.form li span.label:after {
   content: ": ";
 }
-/* line 65, ../../../app/stylesheets/custom.sass */
+/* line 93, ../../../app/stylesheets/custom.sass */
 body.two-col ul.userList {
   list-style: disc outside none;
   padding: 2px 0 2px 20px;
   margin: 0;
 }
-/* line 69, ../../../app/stylesheets/custom.sass */
+/* line 97, ../../../app/stylesheets/custom.sass */
 body.two-col ul.userList li {
   line-height: 1.2em;
 }

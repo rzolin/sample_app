@@ -15,6 +15,34 @@ body.two-col
 		padding: 0
 		margin: 4px 0
 
+	div#error_explanation
+		border: 1px solid #999
+		background-color: #efefef
+		h2
+			font-size: 1.3em
+			color: white
+			background-color: #BB2222
+			padding: 5px
+		p
+			padding: 0 5px
+			margin-bottom: 5px
+	
+	div.field,
+	div.field_with_errors 
+		padding: 0
+		margin: 0
+		display: block
+		label
+			display: block
+		input
+			height: 1.5em
+	div.field_with_errors 
+		label
+			color: red
+		input
+			border-color: red
+		
+	
 	nav 
 		ul
 			+horizontal-list
